@@ -1,0 +1,21 @@
+.formRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+input {
+  height: 40px;
+  width: 200px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+select {
+  height: 43px;
+  width: 205px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 0px;
+}

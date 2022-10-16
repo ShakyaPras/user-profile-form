@@ -1,0 +1,38 @@
+.form-wrapper {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(201, 199, 199);
+  border-radius: 10px;
+}
+
+button {
+  position: relative;
+  width: 150px;
+  height: 45px;
+  margin: 0 auto;
+  font-size: 30px;
+  border-radius: 6px;
+  border: 0px;
+  color: white;
+  background-color: rgb(44, 43, 43);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.response-message {
+  font-size: 20px;
+}
+
+.response-success {
+  color: rgb(14, 90, 14);
+}
+
+.response-failed {
+  color: rgb(122, 13, 13);
+}
